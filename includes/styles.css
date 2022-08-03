@@ -1,0 +1,38 @@
+#barModal {
+    z-index: 1;
+    opacity: 100;
+    transition: opacity 0.2s;
+}
+
+#barModal.hide {
+    z-index: -1;
+    opacity: 0;
+}
+
+.modal-background {
+    position: fixed;
+    margin: 0%;
+    padding: 0%;
+    left: 10%;
+    top: 10%;
+    height: 60vh;
+    width: 80vw;
+    background-color: rgba(238, 162, 162, .9);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 90%;
+    border: 1px solid #ddd;
+}
+  
+th, td {
+    text-align: left;
+    font-size: 16px;
+    padding: 16px;
+}
+  
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
